@@ -48,7 +48,9 @@ REC-sml-20081126.xmlに自前のxslを適用させて、結果をhtmlで吐き�
 
     <?xml-stylesheet type="text/xsl" href="REC-xml.xsl"?>
 の部分を
+
     <?xml-stylesheet type="text/xsl" href="ass1.xsl"?>
+
 などと、該当する xslファイルを読み込ませるように書き換える。そのうえで、xmlファイルをブラウザでひらけば、変換された内容がブラウザに表示されてくれる。chromeの場合は、セキュリティの関係でxslの読み込みがブロックされるので、[Web Server for Chrome](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb)を用いる必要があった。
 
 おわり
